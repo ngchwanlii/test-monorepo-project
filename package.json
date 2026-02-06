@@ -1,0 +1,13 @@
+{
+  "name": "todo-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @todo/backend dev",
+    "build": "pnpm -r build",
+    "build:packages": "pnpm --filter @todo/types build && pnpm --filter @todo/api-client build",
+    "clean": "pnpm -r exec rm -rf dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
