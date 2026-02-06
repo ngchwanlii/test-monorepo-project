@@ -13,7 +13,7 @@
 **Owner: backend-engineer**
 
 ### Tasks:
-1. Create Express server with CORS
+1. Create Hono server with CORS middleware
 2. Set up SQLite database with better-sqlite3
 3. Implement CRUD routes (GET, POST, PATCH, DELETE /api/todos)
 4. Verify API works with curl/test

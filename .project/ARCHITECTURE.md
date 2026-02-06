@@ -21,7 +21,7 @@ todo-monorepo/
 │   │   ├── package.json
 │   │   ├── tsconfig.json
 │   │   └── src/
-│   │       ├── index.ts         # Express server entry point
+│   │       ├── index.ts         # Hono server entry point
 │   │       ├── db.ts            # SQLite database setup
 │   │       └── routes.ts        # Todo CRUD route handlers
 │   ├── web/                     # @todo/web - TanStack Start web app
@@ -52,7 +52,7 @@ todo-monorepo/
 ## Technology Choices
 - **pnpm workspaces**: Monorepo package management
 - **TypeScript**: All packages use TypeScript
-- **Express**: Simple HTTP server for backend
+- **Hono**: Lightweight, fast HTTP framework for backend
 - **better-sqlite3**: Embedded SQLite for persistence
 - **TanStack Start**: Full-stack React framework for web
 - **Expo with Expo Router**: React Native framework for mobile

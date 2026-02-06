@@ -25,7 +25,7 @@ A simple Todo application built as a monorepo with web and mobile frontends shar
 - Monorepo managed with pnpm workspaces
 - Web frontend: TanStack Start (React)
 - Mobile frontend: Expo (React Native)
-- Backend: Node.js REST API with SQLite (better-sqlite3)
+- Backend: Hono REST API with SQLite (better-sqlite3)
 - Shared packages: TypeScript types and API client
 
 ## API Specification

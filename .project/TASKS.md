@@ -4,14 +4,14 @@
 - **Status**: pending
 - **Owner**: backend-engineer
 - **Branch**: feat/setup-and-backend
-- **Description**: Set up pnpm workspace, root config, shared types package, shared api-client package, and build the backend REST API with Express + SQLite
+- **Description**: Set up pnpm workspace, root config, shared types package, shared api-client package, and build the backend REST API with Hono + SQLite
 - **Deliverables**:
   - Root package.json with workspace scripts
   - pnpm-workspace.yaml
   - Root tsconfig.json
   - packages/types with Todo interface and API types
   - packages/api-client with fetch-based client
-  - apps/backend with Express + SQLite CRUD API
+  - apps/backend with Hono + SQLite CRUD API
   - All packages compile with TypeScript
 
 ## Task 2: Web Frontend (TanStack Start)
