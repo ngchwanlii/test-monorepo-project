@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Todo Mobile",
+    "slug": "todo-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "todo-mobile",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todo.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.todo.mobile"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
